@@ -24,7 +24,6 @@
   "tools": [
     {
       "name": "Videokilde",
-      "id": "source-editor",
       "template": "bundles/os2displaydefaulttemplate/templates/default_templates/slides/external-video/tool.html"
     }
   ]
