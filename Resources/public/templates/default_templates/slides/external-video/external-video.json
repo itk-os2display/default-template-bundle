@@ -1,18 +1,18 @@
 {
   "id": "external-video",
   "type": "slide",
-  "name": "Kun video",
+  "name": "Ekstern video",
   "icon": "external-video.png",
   "paths": {
     "live": "external-video.html",
     "edit": "external-video-preview.html",
     "preview": "external-video-preview.html",
     "css": "../only-video/only-video.css",
-    "js": "bundles/os2displaydefaulttemplate/templates/js/videoSlide.js"
+    "js": "bundles/os2displaydefaulttemplate/templates/js/externalVideoSlide.js"
   },
-  "slide_type": "video",
-  "media_type": "video",
-  "script_id": "video",
+  "slide_type": "external-video",
+  "media_type": "external-video",
+  "script_id": "external-video",
   "orientation": "landscape",
   "ideal_dimensions": {
     "width": "1920",
@@ -24,7 +24,8 @@
   "tools": [
     {
       "name": "Videokilde",
-      "id": "source-editor"
+      "id": "source-editor",
+      "template": "bundles/os2displaydefaulttemplate/templates/default_templates/slides/external-video/tool.html"
     }
   ]
 }
