@@ -69,11 +69,6 @@ if (!window.slideFunctions['external-video']) {
         region.nextSlide();
       };
 
-      // If media is empty go to the next slide.
-      if (slide.media.length <= 0) {
-        region.nextSlide();
-      }
-
       region.$timeout(function () {
         // Get hold of the video element and update.
         var video = document.getElementById('videoPlayer-' + slide.uniqueId);
