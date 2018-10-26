@@ -120,7 +120,6 @@ if (!window.slideFunctions['video']) {
                     // Create interval to get video duration (ready state larger than one is
                     // meta-data loaded).
                     var interval = region.$interval(function () {
-                        region.itkLog.log("Interval");
                         if (video.readyState > 0) {
                             var duration = Math.round(video.duration);
                             region.progressBar.start(duration);
